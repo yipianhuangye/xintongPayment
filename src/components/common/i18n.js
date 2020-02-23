@@ -16,6 +16,14 @@ export const messages = {
             Fpassword:'忘记密码',
             p_username:'请输入用户名',
             p_password:'请输入密码'
+        },
+        nav: {
+            shanghu: '商户',
+            admin: '管理员',
+            integral:'积分',
+            member: '会员',
+            carousel: '轮播图',
+            prefix: '预定模版'
         }
     },
     'en': {
@@ -35,6 +43,14 @@ export const messages = {
             Fpassword:'Forget password',
             p_username:'username',
             p_password:'password'
+        },
+        nav: {
+            shanghu: 'Merchant',
+            admin: 'Admin',
+            integral:'Integral',
+            member: 'Member',
+            carousel: 'Rotation chart',
+            prefix: 'Prefix template'
         }
     }
 }

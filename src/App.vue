@@ -1,10 +1,25 @@
 <template>
-    <div id="app">
-        <router-view></router-view>
-    </div>
+  <div id="app">
+    <!-- 导航区域 -->
+    <LuffyHeader />
+    <router-view />
+  </div>
 </template>
+
+<script>
+import LuffyHeader from "@/components/Common/LuffyHeader";
+export default {
+  name: "App",
+  components: {
+    LuffyHeader
+  }
+};
+</script>
 <style>
-    @import "./assets/css/main.css";
-    @import "./assets/css/color-dark.css";     /*深色主题*/
-    /*@import "./assets/css/theme-green/color-green.css";   浅绿色主题*/
+#app {
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("./assets/content-bg.png");
+}
 </style>
