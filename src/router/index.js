@@ -6,6 +6,8 @@ import Integral from '@/components/Integral/Integral'
 import Member from '@/components/Member/Member'
 import Carousel from '@/components/Carousel/Carousel'
 import Prefix from '@/components/Prefix/Prefix'
+
+import Login from '@/components/Login/Login'
 // @绝对路径 检索到 ...src/
 
 // 如果Router当做局部模块使用一定要Vue.use(Router)
@@ -51,6 +53,11 @@ export default new Router({
       'path': '/prefix',
       name: Prefix,
       component: Prefix
+    },
+    {
+      'path':'/login',
+      name: 'Login',
+      component: Login
     }
   ]
 })

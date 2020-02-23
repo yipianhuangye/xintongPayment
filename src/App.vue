@@ -17,7 +17,7 @@ export default {
 </script>
 <style>
 #app {
-  height: 100%;
+  height:100%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("./assets/content-bg.png");
